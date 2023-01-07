@@ -1,0 +1,15 @@
+﻿startUp: app
+ignoreFiles: .gitignore
+log:
+  folder: 
+  type: File
+type: project
+requirements:
+  python: 3.9.7
+  pip: 
+  packages:
+  - package: clicknium
+    version: 
+  - package: Pymem
+    version: 1.10.0
+  locators: []

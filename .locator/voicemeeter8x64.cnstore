@@ -1,0 +1,140 @@
+{
+	"id": "40750b1d-bc6f-44c1-89f3-167b663f8475",
+	"name": "voicemeeter8x64",
+	"nodes": [],
+	"locators": [
+		{
+			"id": "931c01ea-b425-4b26-ab6f-45409282315d",
+			"name": "register_window",
+			"filePath": "5e528c1e-679a-4097-80ee-4987611f8b96.jpg",
+			"content": {
+				"automationType": "Uia",
+				"processName": {
+					"value": "voicemeeter8x64"
+				},
+				"filePath": {
+					"value": "voicemeeter8x64.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"automationId": {
+								"value": "",
+								"excluded": true
+							},
+							"isPassword": {
+								"value": "False",
+								"excluded": true
+							},
+							"orientation": {
+								"value": "None",
+								"excluded": true
+							},
+							"role": {
+								"value": "pane",
+								"excluded": true
+							},
+							"isDirectChild": {
+								"value": "True",
+								"excluded": true
+							},
+							"className": {
+								"value": "VBCABLE0Voicemeeter0MainWindow0",
+								"excluded": true
+							},
+							"controlMetaType": "Uia",
+							"name": {
+								"value": "VoiceMeeter",
+								"excluded": false
+							},
+							"index": {
+								"value": "1",
+								"excluded": true
+							}
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"automationId": {
+										"value": "",
+										"excluded": true
+									},
+									"isPassword": {
+										"value": "False",
+										"excluded": true
+									},
+									"orientation": {
+										"value": "None",
+										"excluded": true
+									},
+									"role": {
+										"value": "window"
+									},
+									"isDirectChild": {
+										"value": "True"
+									},
+									"className": {
+										"value": "#32770",
+										"excluded": false
+									},
+									"controlMetaType": "Uia",
+									"name": {
+										"value": "*"
+									},
+									"index": {
+										"value": "1",
+										"excluded": true
+									}
+								},
+								"childControls": [
+									{
+										"identifier": {
+											"automationId": {
+												"value": "TitleBar"
+											},
+											"isPassword": {
+												"value": "False",
+												"excluded": true
+											},
+											"orientation": {
+												"value": "None",
+												"excluded": true
+											},
+											"role": {
+												"value": "titleBar"
+											},
+											"isDirectChild": {
+												"value": "True"
+											},
+											"className": {
+												"value": "",
+												"excluded": true
+											},
+											"controlMetaType": "Uia",
+											"index": {
+												"value": "1",
+												"excluded": true
+											}
+										},
+										"childControls": [],
+										"excluded": false
+									}
+								],
+								"excluded": false
+							}
+						],
+						"excluded": false
+					}
+				],
+				"parameters": {
+					"excluded": true,
+					"operator": "equals",
+					"value": ""
+				}
+			}
+		}
+	]
+}
