@@ -6,6 +6,8 @@ from pymem import Pymem, process
 
 handle = "voicemeeter8x64.exe"
 address = (0x135708)
+
+
 window = locator.voicemeeter8x64.register_window
 
 def skip_wait():
