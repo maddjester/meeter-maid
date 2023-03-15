@@ -7,7 +7,6 @@ from pymem import Pymem, process
 handle = "voicemeeter8x64.exe"
 address = (0x135708)
 
-
 window = locator.voicemeeter8x64.register_window
 
 def skip_wait():
@@ -33,4 +32,4 @@ if __name__ == "__main__":
                 print(err)
             finally:
                 main_win.send_hotkey("%{F4}", preaction="click")
-        sleep(0.1)
+        sleep(1)
