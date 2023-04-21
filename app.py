@@ -26,9 +26,9 @@ if __name__ == "__main__":
     main_win = None
     while True:
         sleep(3)
-        if main_win == None:
+        if main_win is None:
             if cc.is_existing(window):
-                if skip_wait() == True:
+                if skip_wait() is True:
                     main_win = ui(window).parent.parent
                     child_wins = main_win.children
                     try:
@@ -37,4 +37,3 @@ if __name__ == "__main__":
                     finally:
                         main_win.send_hotkey("%{F4}", preaction="click")
                         main_win = None
-        
